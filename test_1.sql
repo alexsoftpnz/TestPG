@@ -16,6 +16,7 @@ select u.first_name||' '||u.middle_name||' '||u.last_name as FIO,
 from test_schema.t_user u
     left join a on a.id_user = u.id_user and a.rnk = 1
 ;
+
 select * from test_schema.tttt
 ;
 
