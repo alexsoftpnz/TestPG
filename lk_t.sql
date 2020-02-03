@@ -1,4 +1,4 @@
-CREATE or replace FUNCTION test_schema.func1(in par int) RETURNS setof record --(line text, number int, vip boolean)
+CREATE OR REPLACE FUNCTION test_schema.func1(in par int) RETURNS setof record --(line text, number int, vip boolean)
 as
 $$
 	-- Тестирование pipeline функции
